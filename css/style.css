@@ -124,3 +124,9 @@ nav li {
 .active{
   color: #EC2D6D;
 }
+.speech-bubble{
+  width:656px;
+  height:410px;
+  -webkit-clip-path: polygon(100% 0, 0 16%, 14% 78%, 81% 89%, 89% 100%);
+  clip-path: polygon(100% 0, 0 16%, 14% 78%, 81% 89%, 89% 100%);
+}
