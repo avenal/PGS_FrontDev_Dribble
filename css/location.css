@@ -8,7 +8,9 @@ body{
   height:100vh;
   width:100%;
   top:0;
-  background-color: #E694C0;
+  background-repeat: no-repeat;
+  background-image: url('../img/bg/svg/bg.svg');
+  background-size: cover;
 
 }
 nav{
@@ -107,13 +109,13 @@ nav li {
   z-index: -2;
   position: absolute;
   margin:0;
-  background-color: #E694C0;
+  background-color: #1B509F;
   border-bottom-right-radius: 45px;
   border-top-right-radius: 45px;
   border-left: 0;
   width: 45px;
   height: 90px;
-  transform: translate(-1px,calc(3 * 6.5vh + (3 * 17px)));
+  transform: translate(-1px,calc(4 * 6.5vh + 4 * 17px));
 }
 .indicator img{
   transform: translate(-50%,80%);
@@ -121,85 +123,112 @@ nav li {
 .active{
   color: #EC2D6D;
 }
-.first img{
+.description{
   position: absolute;
-  margin:0;
-  padding: 0;
-  transform: translate(436px,104px);
+  border: 2px solid #272125;
+  background-color: #272125;
+  opacity: 0.8;
+  width: 620px;
+  height: 620px;
+  transform: translate(540px,220px);
 }
-.second img{
-  position: absolute;
-  margin:0;
-  padding: 0;
-  transform: translate(920px,104px);
-}
-.first .name{
-  z-index: 1;
-  position: absolute;
-  color: #272125;
-font-family: BebasNeueBold;
-font-size: 80px;
-font-weight: 700;
-line-height: 96px;
-text-align: left;
-transform: translate(210px,158px);
-}
-.first .number{
-    z-index: 1;
-    position: absolute;
-  color: #272125;
- font-family: BebasNeueBold;
- font-size: 200px;
- font-weight: 700;
- letter-spacing: -14px;
- line-height: 240px;
- text-align: center;
- transform: translate(207px,233px);
-}
-.first .title{
-  z-index: 1;
-  position: absolute;
-  color: #000000;
-font-family: Lato;
-font-size: 30px;
-font-weight: 400;
-line-height: 40px;
-text-align: left;
-width:160px;
- transform: translate(211px,457px);
-}
-.second .title{
-z-index: 1;
-position: absolute;
-color: white;
-font-family: Lato;
-font-size: 30px;
-font-weight: 400;
-line-height: 40px;
-text-align: right;
-width:191px;
- transform: translate(1302px,432px);
-}
-.second .number{
-  z-index: 1;
-  position: absolute;
-color: white;
-font-family: BebasNeueBold;
-font-size: 200px;
-font-weight: 700;
-letter-spacing: -14px;
-line-height: 240px;
-text-align: center;
-transform: translate(1341px,504px);
-}
-.second .name{
-  z-index: 1;
-  position: absolute;
+.description h1{
   color: white;
 font-family: BebasNeueBold;
-font-size: 80px;
+font-size: 90px;
 font-weight: 700;
-line-height: 96px;
+letter-spacing: 1.5px;
+line-height: 108px;
+text-align: center;
+margin:0;
+margin-top: 50px;
+padding: 0;
+}
+.description p{
+  color: #FFFFFF;
+font-family: Lato;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 1px;
+line-height: 24px;
+text-align: center;
+padding-bottom: 50px;
+margin-top: 0;
+}
+.description p:nth-child(2n+1){
+padding-bottom: 0;
+}
+.description .pink{
+  color:#EC2D6D;
+}
+.white_border{
+  position: absolute;
+  border: 2px solid #FFFFFF;
+  opacity: 0.5;
+  width: 580px;
+  height: 580px;
+  transform: translate(563px,240px);
+}
+.train{
+position: absolute;
+transform: translate(983px,97px);
+}
+.monument{
+position: absolute;
+transform: translate(30px,560px);
+}
+.bridge{
+position: absolute;
+transform: translate(370px,470px);
+overflow: hidden;
+max-width: 170px;
+}
+.dribble{
+  position: absolute;
+  transform: translate(1405px,320px);
+}
+.train p{
+  color: #FFFFFF;
+font-family: Lato;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 1px;
+line-height: 24px;
 text-align: left;
-transform: translate(1081px,722px);
+max-width: 60px;
+transform: translate(120px, -90px);
+}
+.monument p{
+  color: #FFFFFF;
+font-family: Lato;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 1px;
+line-height: 24px;
+text-align: left;
+max-width: 160px;
+transform: translate(50px, -65px);
+}
+.bridge_title p{
+position: absolute;
+color: #FFFFFF;
+font-family: Lato;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 1px;
+line-height: 24px;
+text-align: left;
+max-width: 160px;
+transform: translate(270px, 420px);
+}
+.dribble p{
+  color: #FFFFFF;
+font-family: Lato;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 1px;
+line-height: 24px;
+text-align: left;
+max-width: 220px;
+transform: translate(30px, -180px);
 }

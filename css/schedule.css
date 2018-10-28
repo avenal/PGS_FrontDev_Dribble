@@ -104,8 +104,6 @@ nav li {
 }
 
 .indicator{
-  border-bottom-right-radius: $size * 2;
-  border-top-right-radius: $size * 2;
   z-index: -2;
   position: absolute;
   margin:0;
@@ -115,7 +113,7 @@ nav li {
   border-left: 0;
   width: 45px;
   height: 90px;
-  transform: translate(-0.5vh,calc(2 * 6.5vh + 2 * 17px));
+  transform: translate(-1px,calc(2 * 6.5vh + 2 * 17px));
 }
 .indicator img{
   transform: translate(-50%,80%);
