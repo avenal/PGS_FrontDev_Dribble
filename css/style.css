@@ -124,9 +124,59 @@ nav li {
 .active{
   color: #EC2D6D;
 }
-.speech-bubble{
+.speech_bubble{
+  position: absolute;
   width:656px;
   height:410px;
+  background-color: white;
+  transform: translate(322px,100px);
   -webkit-clip-path: polygon(100% 0, 0 16%, 14% 78%, 81% 89%, 89% 100%);
   clip-path: polygon(100% 0, 0 16%, 14% 78%, 81% 89%, 89% 100%);
+}
+.rectangle_title{
+  z-index: 1;
+  position: absolute;
+  background-color: #272125;
+  width: 540px;
+  height: 88px;
+  transform: translate(347px,284px);
+}
+.hello{
+z-index: 2;
+position: absolute;
+color: #272125;
+font-family: BebasNeueBold;
+font-size: 100px;
+font-weight: 700;
+line-height: 120px;
+text-align: center;
+transform: translate(421px,149px);
+}
+.date{
+  z-index: 2;
+  position: absolute;
+  color: #DEDEE0;
+  font-family: BebasNeueBold;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+  width: 500px;
+  transform: translate(350px,190px);
+  word-spacing: 30px;
+}
+.date span{
+  color: #EE2F6E;
+
+}
+.meetup{
+  z-index: 2;
+  position: absolute;
+  color: #272125;
+   font-family: BebasNeueBold;
+   font-size: 68px;
+   font-weight: 700;
+   line-height: 82px;
+   text-align: center;
+  transform: translate(490px,300px);
 }
