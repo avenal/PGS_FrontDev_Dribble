@@ -1,0 +1,126 @@
+body{
+  margin:0;
+  padding:0;
+}
+.container{
+  z-index: -1;
+  position:fixed;
+  height:100vh;
+  width:100%;
+  top:0;
+  background-repeat: no-repeat;
+  background-image: url('../img/Bitmap_1/png/Bitmap.png');
+  background-size: cover;
+}
+nav{
+  padding: 0;
+  margin:0;
+  min-width: 180px;
+  background-color: white;
+  position:absolute;
+  height: 100vh;
+  width:11vw;
+  transform:translate(89vw,0%);
+}
+.logo{
+    width:11vw;
+    height:11vw;
+    min-width: 180px;
+    min-height: 180px;
+    background-image: url('../img/logo/png/logo.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #272125;
+}
+nav ul{
+  list-style-type: none;
+  margin-top: 6.5vh;
+  margin-bottom: 11vh;
+  padding: 0;
+  text-align: center;
+
+}
+nav li > a{
+  color: #272125;
+  text-decoration: none;
+  text-transform:  uppercase;
+}
+nav li {
+  color: #EC2D6D;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 6.5vh;
+}
+.counter h1{
+  color: #272125;
+  font-family: BebasNeueBold;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 120px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.counter p{
+  transform: translate(0,-3vh);
+  color: #272125;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.social ul{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0;
+  margin:2vh;
+}
+.social li{
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 3vh;
+}
+.social li:last-child{
+  padding-right: 0;
+}
+.footer{
+  color: #272125;
+   font-family: Lato;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 20px;
+   text-align: center;
+}
+.footer span{
+  color: #EC2D6D;
+}
+
+.indicator{
+  border-bottom-right-radius: $size * 2;
+  border-top-right-radius: $size * 2;
+  z-index: -2;
+  position: absolute;
+  margin:0;
+  background-color: #1B509F;
+  border-bottom-right-radius: 45px;
+  border-top-right-radius: 45px;
+  border-left: 0;
+  width: 45px;
+  height: 90px;
+  transform: translate(-0.5vh,calc(2 * 6.5vh + 2 * 17px));
+}
+.indicator img{
+  transform: translate(-50%,80%);
+}
+.active{
+  color: #EC2D6D;
+}
